@@ -1,0 +1,11 @@
+{
+    "task": {
+        "path": "."
+    },
+    "trial_name": "log-report__Hex4tJ2",
+    "trials_dir": "jobs/2026-07-21__15-00-45",
+    "agent": {
+        "name": "nop"
+    },
+    "job_id": "c058a270-d6ae-499f-9229-1a3e60709e15"
+}

@@ -2,10 +2,11 @@ import json
 from pathlib import Path
 REPORT = Path("/app/report.json")
 def load():
+    """Load the generated report."""
     assert REPORT.exists(), "report.json not found"
     return json.loads(REPORT.read_text())
 def test_report_exists():
-    """Success Criterion 1: report.json exists."""
+    """Success Criterion 1: Create /app/report.json."""
     assert REPORT.exists()
 def test_total_requests():
     """Success Criterion 2: total_requests equals 6."""
